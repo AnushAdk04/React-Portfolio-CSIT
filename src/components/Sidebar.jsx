@@ -7,7 +7,9 @@ const Sidebar = () => {
         <div className="fixed left-0 top-0 h-full w-64 bg-black text-white flex flex-col justify-between p-6">
             {/* Logo Area */}
             <div>
+                <Link  to="/">
                 <h1 className="text-2xl font-bold tracking-widest mb-12">AA</h1>
+                </Link>
 
                 {/* Navigation Links */}
                 <nav className="flex flex-col space-y-4">
